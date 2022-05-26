@@ -1,5 +1,7 @@
 # WIP: MSFS configuration for AAO and Behringer X-Touch Mini
 
+- [Fenix A320](Fenix_A320)
+
 ## Panel Overlay
 
 Should print at 300 dpi
