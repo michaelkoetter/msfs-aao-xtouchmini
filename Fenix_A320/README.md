@@ -12,4 +12,4 @@ You can ignore the StreamDeck stuff, just import the scripts into AAO (`AxisAndO
 
 ## AAO Template
 
-Import the template file `AxisAndOhsScripts_FENIX_A32XX_XTOUCH.xml` into AAO.
+Import the template file `FENIX_A32XX_XTOUCH.tmpl` into AAO.
