@@ -1,0 +1,8 @@
+(SPEAK:Approach Checklist) (WAIT:2000)
+[] (SPEAK:Briefing)                 // CONFIRMED
+[] (SPEAK:E-Cam Status)             // CHECKED
+[] (SPEAK:Seat Belts)               // ON
+[] (SPEAK:Altimeters)               // SET
+[] (SPEAK:Minimums)                 // SET
+[] (SPEAK:Engine Mode Selector)     // NORMAL
+(SPEAK:Approach Checklist Completed)

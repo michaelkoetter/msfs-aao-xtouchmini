@@ -1,0 +1,8 @@
+(SPEAK:Parking Checklist) (WAIT:2000)
+[] (SPEAK:A-P-U Bleed)              // ON
+[] (SPEAK:Engines)                  // OFF
+[] (SPEAK:Seat Belts)               // OFF
+[] (SPEAK:Exterior Lights)          // OFF/SET
+[] (SPEAK:Fuel Pumps)               // OFF
+[] (SPEAK:Parking Brakes)           // SET
+(SPEAK:Parking Checklist Completed)

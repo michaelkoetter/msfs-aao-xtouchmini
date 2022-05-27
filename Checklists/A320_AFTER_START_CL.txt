@@ -1,0 +1,6 @@
+(SPEAK:After Start Checklist) (WAIT:2000)
+[] (SPEAK:Enti Ice) // sic      // AS REQ (ON, OFF)
+[] (SPEAK:E-Cam Status)         // CHECK
+[] (SPEAK:Pitch Trim)           // SET
+[] (SPEAK:Rudder Trim)          // ZERO
+(SPEAK:After Start Checklist Completed)

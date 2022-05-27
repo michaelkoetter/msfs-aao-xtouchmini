@@ -1,0 +1,9 @@
+(SPEAK:After Takeoff Checklist) (WAIT:2000)
+[] (SPEAK:Landing Gear)             // UP
+[] (SPEAK:Flaps)                    // RETRACTED
+[] (SPEAK:Packs)                    // ON
+[300000] (SPEAK:Down to the Line)   // CONTINUE
+
+(SPEAK:Below the Line) (WAIT:2000)
+[] (SPEAK:Altimeters)               // STANDARD SET
+(SPEAK:After Takeoff Checklist Completed)

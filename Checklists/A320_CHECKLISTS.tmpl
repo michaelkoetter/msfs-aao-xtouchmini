@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TemplateExport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <template>
+    <aircraftId>A320_CHECKLISTS</aircraftId>
+    <airFileId>A320_CHECKLISTS</airFileId>
+    <loadFromMaster>false</loadFromMaster>
+    <buttons>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>Audio Checklist</Group>
+          <Description>Advance to next checklist item</Description>
+          <SimulatorEventName>AAO_CL_CHECKED</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
+          <IsAaoVirtualEvent>true</IsAaoVirtualEvent>
+          <type>SINGLE</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <repeatLimit>0</repeatLimit>
+        <joystickGuid>00000000-0000-0000-0000-000000000000</joystickGuid>
+        <joystickName />
+        <joystickButton>-1</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>7766</midiDeviceId>
+        <midiChannel>1</midiChannel>
+        <midiEvent>1</midiEvent>
+        <endless>false</endless>
+        <rockerMode>false</rockerMode>
+        <midiEncoder>CLICK</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <isOnOffSwitch>false</isOnOffSwitch>
+        <voiceCommand>checked|check|set|on|off|continue|completed|removed|on auto|nav|closed|idle|zero|confirmed|notify|takeoff no blue|advised|normal|up|retracted|standard set|speed|landing no blue</voiceCommand>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <skipActuations>0</skipActuations>
+        <adaptiveRepeat>false</adaptiveRepeat>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>AAO_CL_CHECKED</Action>
+        <Label>Voice - Advance Checklist</Label>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>Audio Checklist</Group>
+          <Description>Stop current checklist</Description>
+          <SimulatorEventName>AAO_CL_STOP</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
+          <IsAaoVirtualEvent>true</IsAaoVirtualEvent>
+          <type>SINGLE</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <repeatLimit>0</repeatLimit>
+        <joystickGuid>00000000-0000-0000-0000-000000000000</joystickGuid>
+        <joystickName />
+        <joystickButton>-1</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>7766</midiDeviceId>
+        <midiChannel>1</midiChannel>
+        <midiEvent>2</midiEvent>
+        <endless>false</endless>
+        <rockerMode>false</rockerMode>
+        <midiEncoder>CLICK</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <isOnOffSwitch>false</isOnOffSwitch>
+        <voiceCommand>stop checklist</voiceCommand>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <skipActuations>0</skipActuations>
+        <adaptiveRepeat>false</adaptiveRepeat>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>AAO_CL_STOP</Action>
+        <Label>Voice - Stop Checklist</Label>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>A320_CHECKLISTS</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>A320_CHECKLISTS-BEFORE_START</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <repeatLimit>0</repeatLimit>
+        <joystickGuid>00000000-0000-0000-0000-000000000000</joystickGuid>
+        <joystickName />
+        <joystickButton>-1</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>7766</midiDeviceId>
+        <midiChannel>1</midiChannel>
+        <midiEvent>3</midiEvent>
+        <endless>false</endless>
+        <rockerMode>false</rockerMode>
+        <midiEncoder>CLICK</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <isOnOffSwitch>false</isOnOffSwitch>
+        <voiceCommand>before start checklist</voiceCommand>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <skipActuations>0</skipActuations>
+        <adaptiveRepeat>false</adaptiveRepeat>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>A320_CHECKLISTS-BEFORE_START</Action>
+        <Label>Voice - Before Start Checklist</Label>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>A320_CHECKLISTS</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>A320_CHECKLISTS-AFTER_START</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <repeatLimit>0</repeatLimit>
+        <joystickGuid>00000000-0000-0000-0000-000000000000</joystickGuid>
+        <joystickName />
+        <joystickButton>-1</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>7766</midiDeviceId>
+        <midiChannel>1</midiChannel>
+        <midiEvent>4</midiEvent>
+        <endless>false</endless>
+        <rockerMode>false</rockerMode>
+        <midiEncoder>CLICK</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <isOnOffSwitch>false</isOnOffSwitch>
+        <voiceCommand>after start checklist</voiceCommand>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <skipActuations>0</skipActuations>
+        <adaptiveRepeat>false</adaptiveRepeat>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>A320_CHECKLISTS-AFTER_START</Action>
+        <Label>Voice - After Start Checklist</Label>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>A320_CHECKLISTS</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>A320_CHECKLISTS-BEFORE_TAKEOFF</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <repeatLimit>0</repeatLimit>
+        <joystickGuid>00000000-0000-0000-0000-000000000000</joystickGuid>
+        <joystickName />
+        <joystickButton>-1</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>7766</midiDeviceId>
+        <midiChannel>1</midiChannel>
+        <midiEvent>5</midiEvent>
+        <endless>false</endless>
+        <rockerMode>false</rockerMode>
+        <midiEncoder>CLICK</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <isOnOffSwitch>false</isOnOffSwitch>
+        <voiceCommand>before takeoff checklist</voiceCommand>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <skipActuations>0</skipActuations>
+        <adaptiveRepeat>false</adaptiveRepeat>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>A320_CHECKLISTS-BEFORE_TAKEOFF</Action>
+        <Label>Voice - Before Takeoff Checklist</Label>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>A320_CHECKLISTS</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>A320_CHECKLISTS-AFTER_TAKEOFF</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <repeatLimit>0</repeatLimit>
+        <joystickGuid>00000000-0000-0000-0000-000000000000</joystickGuid>
+        <joystickName />
+        <joystickButton>-1</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>7766</midiDeviceId>
+        <midiChannel>1</midiChannel>
+        <midiEvent>6</midiEvent>
+        <endless>false</endless>
+        <rockerMode>false</rockerMode>
+        <midiEncoder>CLICK</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <isOnOffSwitch>false</isOnOffSwitch>
+        <voiceCommand>after takeoff checklist</voiceCommand>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <skipActuations>0</skipActuations>
+        <adaptiveRepeat>false</adaptiveRepeat>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>A320_CHECKLISTS-AFTER_TAKEOFF</Action>
+        <Label>Voice - After Takeoff Checklist</Label>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>A320_CHECKLISTS</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>A320_CHECKLISTS-APPROACH</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <repeatLimit>0</repeatLimit>
+        <joystickGuid>00000000-0000-0000-0000-000000000000</joystickGuid>
+        <joystickName />
+        <joystickButton>-1</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>7766</midiDeviceId>
+        <midiChannel>1</midiChannel>
+        <midiEvent>7</midiEvent>
+        <endless>false</endless>
+        <rockerMode>false</rockerMode>
+        <midiEncoder>CLICK</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <isOnOffSwitch>false</isOnOffSwitch>
+        <voiceCommand>approach checklist</voiceCommand>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <skipActuations>0</skipActuations>
+        <adaptiveRepeat>false</adaptiveRepeat>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>A320_CHECKLISTS-APPROACH</Action>
+        <Label>Voice - Approach Checklist</Label>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>A320_CHECKLISTS</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>A320_CHECKLISTS-LANDING</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <repeatLimit>0</repeatLimit>
+        <joystickGuid>00000000-0000-0000-0000-000000000000</joystickGuid>
+        <joystickName />
+        <joystickButton>-1</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>7766</midiDeviceId>
+        <midiChannel>1</midiChannel>
+        <midiEvent>8</midiEvent>
+        <endless>false</endless>
+        <rockerMode>false</rockerMode>
+        <midiEncoder>CLICK</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <isOnOffSwitch>false</isOnOffSwitch>
+        <voiceCommand>landing checklist</voiceCommand>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <skipActuations>0</skipActuations>
+        <adaptiveRepeat>false</adaptiveRepeat>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>A320_CHECKLISTS-LANDING</Action>
+        <Label>Voice - Landing Checklist</Label>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>A320_CHECKLISTS</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>A320_CHECKLISTS-PARKING</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <repeatLimit>0</repeatLimit>
+        <joystickGuid>00000000-0000-0000-0000-000000000000</joystickGuid>
+        <joystickName />
+        <joystickButton>-1</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>7766</midiDeviceId>
+        <midiChannel>1</midiChannel>
+        <midiEvent>9</midiEvent>
+        <endless>false</endless>
+        <rockerMode>false</rockerMode>
+        <midiEncoder>CLICK</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <isOnOffSwitch>false</isOnOffSwitch>
+        <voiceCommand>parking checklist</voiceCommand>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <skipActuations>0</skipActuations>
+        <adaptiveRepeat>false</adaptiveRepeat>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>A320_CHECKLISTS-PARKING</Action>
+        <Label>Voice - Parking Checklist</Label>
+      </GlobalHotkey>
+    </buttons>
+    <axis />
+    <overrideSaitekPanelInMidiMode />
+    <overrideSaitekEvents />
+    <overrideSaitekVariables />
+    <autoScripts />
+    <virtualGaugesTemplateGuid>00000000-0000-0000-0000-000000000000</virtualGaugesTemplateGuid>
+    <desktopGaugesTemplateGuid>00000000-0000-0000-0000-000000000000</desktopGaugesTemplateGuid>
+    <webGaugesTemplateGuid>00000000-0000-0000-0000-000000000000</webGaugesTemplateGuid>
+    <bVarProfileGuid>00000000-0000-0000-0000-000000000000</bVarProfileGuid>
+  </template>
+  <scripts>
+    <Script>
+      <group>A320_CHECKLISTS</group>
+      <label>BEFORE_START</label>
+      <script>(CHECKLIST:A320_BEFORE_START_CL.txt)</script>
+      <edition>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="Text" NumberSubstitution.Substitution="AsCulture" FontFamily="Courier New" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run xml:lang="de-de" Background="#FFFFFFFF"&gt;(CHECKLIST:A320_BEFORE_START_CL.txt)&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</edition>
+    </Script>
+    <Script>
+      <group>A320_CHECKLISTS</group>
+      <label>AFTER_START</label>
+      <script>(CHECKLIST:A320_AFTER_START_CL.txt)</script>
+      <edition>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="Text" NumberSubstitution.Substitution="AsCulture" FontFamily="Courier New" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run xml:lang="de-de" Background="#FFFFFFFF"&gt;(CHECKLIST:A320_AFTER_START_CL.txt)&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</edition>
+    </Script>
+    <Script>
+      <group>A320_CHECKLISTS</group>
+      <label>BEFORE_TAKEOFF</label>
+      <script>(CHECKLIST:A320_BEFORE_TAKEOFF_CL.txt)</script>
+      <edition>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="Text" NumberSubstitution.Substitution="AsCulture" FontFamily="Courier New" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run xml:lang="de-de" Background="#FFFFFFFF"&gt;(CHECKLIST:A320_BEFORE_TAKEOFF_CL.txt)&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</edition>
+    </Script>
+    <Script>
+      <group>A320_CHECKLISTS</group>
+      <label>AFTER_TAKEOFF</label>
+      <script>(CHECKLIST:A320_AFTER_TAKEOFF_CL.txt)</script>
+      <edition>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="Text" NumberSubstitution.Substitution="AsCulture" FontFamily="Courier New" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run xml:lang="de-de" Background="#FFFFFFFF"&gt;(CHECKLIST:A320_AFTER_TAKEOFF_CL.txt)&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</edition>
+    </Script>
+    <Script>
+      <group>A320_CHECKLISTS</group>
+      <label>APPROACH</label>
+      <script>(CHECKLIST:A320_APPROACH_CL.txt)</script>
+      <edition>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="Text" NumberSubstitution.Substitution="AsCulture" FontFamily="Courier New" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run xml:lang="de-de" Background="#FFFFFFFF"&gt;(CHECKLIST:A320_APPROACH_CL.txt)&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</edition>
+    </Script>
+    <Script>
+      <group>A320_CHECKLISTS</group>
+      <label>LANDING</label>
+      <script>(CHECKLIST:A320_LANDING_CL.txt)</script>
+      <edition>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="Text" NumberSubstitution.Substitution="AsCulture" FontFamily="Courier New" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run xml:lang="de-de" Background="#FFFFFFFF"&gt;(CHECKLIST:A320_LANDING_CL.txt)&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</edition>
+    </Script>
+    <Script>
+      <group>A320_CHECKLISTS</group>
+      <label>PARKING</label>
+      <script>(CHECKLIST:A320_PARKING_CL.txt)</script>
+      <edition>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="Text" NumberSubstitution.Substitution="AsCulture" FontFamily="Courier New" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run xml:lang="de-de" Background="#FFFFFFFF"&gt;(CHECKLIST:A320_PARKING_CL.txt)&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</edition>
+    </Script>
+  </scripts>
+</TemplateExport>

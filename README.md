@@ -1,5 +1,6 @@
 # WIP: MSFS configuration for AAO and Behringer X-Touch Mini
 
+- [Audio Checklists](Checklists)
 - [Fenix A320](Fenix_A320)
 
 ## Panel Overlay

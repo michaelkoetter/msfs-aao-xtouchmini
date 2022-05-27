@@ -1,0 +1,16 @@
+(SPEAK:Before Takeoff Checklist) (WAIT:2000)
+[] (SPEAK:Flight Controls)          // CHECKED
+[] (SPEAK:Flight Instruments)       // CHECKED
+[] (SPEAK:Briefing)                 // CONFIRMED
+[] (SPEAK:Flaps Settings)           // SET
+[] (SPEAK:V-Speeds) 	            // SET
+[] (SPEAK:A-T-C)                    // NOTIFY
+[] (SPEAK:E-Cam Memo)               // TAKEOFF NO BLUE
+[300000] (SPEAK:Down to the Line)   // CONTINUE
+
+(SPEAK:Below the Line) (WAIT:2000)
+[] (SPEAK:Cabin Crew)               // ADVISED
+[] (SPEAK:T-Kes) // sic             // SET
+[] (SPEAK:Engine Mode Selector)     // NORMAL
+[] (SPEAK:Packs)                    // AS REQ (ON, OFF)
+(SPEAK:Before Takeoff Checklist Completed)
