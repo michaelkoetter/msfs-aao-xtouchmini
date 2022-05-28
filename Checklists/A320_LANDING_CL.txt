@@ -1,5 +1,5 @@
 (SPEAK:Landing Checklist) (WAIT:2000)
 [] (SPEAK:Cabin Crew)               // ADVISED
-[] (SPEAK:Auto Throttle)            // SPEED/OFF
+[] (SPEAK:Auto Thrust)              // SPEED/OFF
 [] (SPEAK:E-Cam Memo)               // LANDING NO BLUE
 (SPEAK:Landing Checklist Completed)
